@@ -22,6 +22,14 @@ public class method_1
         int num2 = sc.nextInt();
         int result = squareSum(num2, num1);
         System.out.println("The Square Sum of The Two Numbers:");
-        System.out.println("("+num1+")^2 + ("+num2+")^2\n= "+square(num1)+" + "+square(num2)+"\n= "+result);          
+        System.out.println("("+num1+")^2 + ("+num2+")^2\n= "+square(num1)+" + "+square(num2)+"\n= "+result);
+        /*___________________________OUTPUT______________________________________
+        Enter 1st Number: 2
+        Enter 2nd Number: 4
+        The Square Sum of The Two Numbers:
+        (2)^2 + (4)^2
+        = 4 + 16
+        = 20 
+        */
     }
 }
