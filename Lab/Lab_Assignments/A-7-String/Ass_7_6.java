@@ -15,7 +15,7 @@ public class Ass_7_6
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a Strong Passwod: ");
+        System.out.print("Enter Your Passwod: ");
         String password = sc.nextLine();
         int l = password.length();
         boolean upper = false;
