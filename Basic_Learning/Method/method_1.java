@@ -3,8 +3,9 @@ public class method_1
 {
     public static int squareSum(int a, int b)
     {
-        int sum = square(a)+square(b);
-        return sum;
+        //int sum = square(a)+square(b);
+        //return sum;
+        return square(a)+square(b);
     }
     public static int square(int a)
     {
