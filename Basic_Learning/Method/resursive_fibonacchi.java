@@ -1,10 +1,12 @@
+import java.util.Scanner;
+
 public class resursive_fibonacchi 
 {
     public static void fibo(int n, int a, int b)
     {
-        if (n < 3) {
+        if (n < 3) {        // base case
             return;
-        } else {
+        } else {            // recursive case
             int f = a + b;
             a = b; b = f;
             System.out.print(f+" ");
@@ -14,8 +16,12 @@ public class resursive_fibonacchi
     // 0 1 1 2 3 5 8 13 21 34; Fibonacchi Series
     public static void main(String [] args)
     {
-        int n = 10;
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Enter term: ");
+        int n = sc.nextInt();
+        System.out.print("Fibonacchi Series: ");
         System.out.print("0 1 ");
         fibo(n, 0, 1);
+        sc.close();
     }
 }
