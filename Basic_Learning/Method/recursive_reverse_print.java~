@@ -10,7 +10,6 @@ public class recursive_reverse_print
             i --;
         }
     }
-    // recursion
     public static void revPrintR(int a)
     {
         if ( a == 0){
