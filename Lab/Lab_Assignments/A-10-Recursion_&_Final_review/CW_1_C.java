@@ -7,7 +7,7 @@ public class CW_1_C {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         //recursiveSum(1,N);
-        System.out.print(recursiveSum(1,N));
+        System.out.print("Summation("+1+"-"+ N+"): "+recursiveSum(1,N));
         sc.close();
     }
     public static int recursiveSum(int a, int N)
