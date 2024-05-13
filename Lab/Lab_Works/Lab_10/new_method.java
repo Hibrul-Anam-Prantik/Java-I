@@ -10,7 +10,7 @@ public class new_method
         int x = sc.nextInt();
         System.out.print("y = ");
         int y = sc.nextInt();
-        System.out.println("__________________________\nResult:\n"+x+" - "+y+" = "+calc(x,y)+"(Ans)");
+        System.out.println("__________________________\nResult:\n"+x+" - "+y+" = "+calc(x,y)+" (Ans)");
         sc.close();
     }
     public static int calc(int a, int b)
