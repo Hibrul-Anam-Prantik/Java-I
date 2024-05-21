@@ -29,16 +29,24 @@ public class its_my_life {
             System.out.println(
                     "\nHi, " + name
                             + "!\n\nWelcome back!! \nYou are already registered in our server.\nHere's your saved data-\n_____________________________________________________\n1. Name: "
-                            + name + "\n2. Age: " + age + "\n3. ID: " + 12345678);
-        }
-        if ((name_match && !age_match) || (!name_match && age_match)) {
+                            + name + "\n2. Age : " + age + "\n3. ID  : " + 12345678);
+        } else if ((name_match && !age_match) || (!name_match && age_match)) {
             System.out.print("\nHi, " + name
                     + "!\n\nWe are really SORRY to inform that you are not registered in our server yet.\nKindly share the below information to get registered-\nName: "
-                    + name + "\nAge: " + age + "\nID: ");
+                    + name + "\nAge : " + age + "\nID  : ");
             int id = sc.nextInt();
             System.out.println(
-                    "\nCongratulations!! You are now registered in your server.\nHere's your data-\n_____________________________________________________\\n"
-                            + "\n1. Name: " + name + "\n2. Age: " + age + "\n3. ID: " + id);
+                    "\nCongratulations!! You are now registered in your server.\nHere's your data-\n_____________________________________________________\n"
+                            + "\n1. Name: " + name + "\n2. Age : " + age + "\n3. ID  : " + id);
+        } else {
+            System.out.print("\nHi, " + name
+                    + "!\n\nWe are really SORRY to inform that you are not registered in our server yet.\nKindly share the below information to get registered-\nName: "
+                    + name + "\nAge : " + age + "\nID  : ");
+            int id = sc.nextInt();
+            System.out.println(
+                    "\nCongratulations!! You are now registered in your server.\nHere's your data-\n_____________________________________________________\n"
+                            + "\n1. Name: " + name + "\n2. Age : " + age + "\n3. ID  : " + id);
         }
+        sc.close();
     }
 }
