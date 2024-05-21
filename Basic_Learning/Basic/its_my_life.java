@@ -5,7 +5,7 @@ public class its_my_life {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Your Name: ");
         String name = sc.nextLine();
-        System.out.print("Enter Your Age: ");
+        System.out.print("Enter Your Age : ");
         int age = sc.nextInt();
         String[] names = { "Prantik", "Pallobi", "Shama", "Raj" };
         int[] ages = { 19, 25, 19, 17 };
