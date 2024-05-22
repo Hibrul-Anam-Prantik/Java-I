@@ -1,4 +1,4 @@
-public class Practise_Task_5_Tracing {
+public class Practise_Task_6_Tracing {
     public static void main(String args[]) {
         int[] arr1 = { 3, 1, 4, 1, 5, 9, 2 };
         int[] arr2 = { 10, 20, 30, 40, 50, 60, 70 };
