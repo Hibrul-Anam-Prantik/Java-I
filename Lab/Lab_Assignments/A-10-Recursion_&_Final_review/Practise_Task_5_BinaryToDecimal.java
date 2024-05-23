@@ -34,7 +34,7 @@ public class Practise_Task_5_BinaryToDecimal {
             // 10 - 15
             // A - F
             for (char i = 'A'; i <= 'F'; i++) {
-                if ((char) decimal == i) {
+                if ((char) (decimal + 55) == i) {
                     hex = "" + i;
                     break;
                 }
