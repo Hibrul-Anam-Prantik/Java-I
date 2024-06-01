@@ -20,6 +20,7 @@ public class reading {
         System.out.println(s3);
         System.out.println(s4);
         System.out.print(s5); // null
-
+        fr.close();
+        br.close();
     }
 }
