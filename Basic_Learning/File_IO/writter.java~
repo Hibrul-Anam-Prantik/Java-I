@@ -1,0 +1,11 @@
+package Basic_Learning.File_IO;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.BufferedWriter;
+
+public class writter {
+    public static void main(String[] args) throws IOException {
+        System.out.println("Hello!");
+    }
+}
