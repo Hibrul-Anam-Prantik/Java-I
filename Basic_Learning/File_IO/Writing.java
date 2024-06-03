@@ -1,17 +1,15 @@
 package Basic_Learning.File_IO;
 
-import java.io.FileWriter;
 import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 
-public class writter {
+public class Writing {
     public static void main(String[] args) throws IOException {
-        String location = "F:\\Writer.txt";
-        FileWriter fw = new FileWriter(location);
+        String l = "F:\\A_Study\\Java_Coding_Files\\Writing.txt";
+        FileWriter fw = new FileWriter(l);
         BufferedWriter bw = new BufferedWriter(fw);
-
-        bw.write("Welcome\n");
-        bw.write("It's Working.\n");
+        bw.write("Hello");
         bw.close();
         fw.close();
     }
