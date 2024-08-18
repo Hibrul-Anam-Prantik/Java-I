@@ -13,6 +13,7 @@ public class ClassWork_2 {
                 palindrome = true;
             } else {
                 palindrome = false;
+                break;
             }
         }
         System.out.println(palindrome);

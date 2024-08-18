@@ -8,4 +8,9 @@ public class Scanner {
         //TODO Auto-generated constructor stub
     }
 
+    public String nextLine() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'nextLine'");
+    }
+
 }
