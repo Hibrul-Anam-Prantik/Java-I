@@ -1,4 +1,4 @@
-package Lab.Lab_Works.Lab_10;
+package Tasks.Class_Works.Lab_10;
 import java.util.*;
 public class new_method
 {
