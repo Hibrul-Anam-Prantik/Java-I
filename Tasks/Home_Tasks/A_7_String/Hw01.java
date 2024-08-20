@@ -1,4 +1,4 @@
-package Tasks.Class_Works.Lab_7;
+package Tasks.Home_Tasks.A_7_String;
 import java.util.Scanner;
 
 public class Hw01 {

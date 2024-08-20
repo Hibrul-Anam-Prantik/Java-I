@@ -1,3 +1,4 @@
+
 ///FlowChart
 import java.util.Scanner;
 public class A4_HW1{

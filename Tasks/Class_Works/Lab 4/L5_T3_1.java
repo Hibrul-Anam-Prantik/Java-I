@@ -6,7 +6,7 @@ public class L5_T3_1 {
     Scanner sc = new Scanner(System.in);
     int start = sc.nextInt();
     int end = sc.nextInt(0);
-                         
+                    
     for (int n = start; n<=end; n++) {
       int count = 0, temp;
         temp /= 10;
