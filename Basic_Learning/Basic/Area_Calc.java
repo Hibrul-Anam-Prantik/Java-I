@@ -1,3 +1,5 @@
+package Basic_Learning.Basic;
+
 import java.util.Scanner;
 public class Area_Calc {
   public static void main (String [] args) {
