@@ -1,2 +1,2 @@
-#### Here I have uploaded some basic java codes. 
+#### Here I have uploaded some basic level java codes. 
 #### String, Array, Method, etc
